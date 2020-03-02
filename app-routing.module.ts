@@ -6,7 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
 
 
-const routes: Routes = [ 
+const routes: Routes = [ {'',component:HomeComponent},
   {path: 'placeappointment',component:PlaceappointmentComponent},
   {path: 'viewappointment',component:ViewappointmentComponent},
   {path : 'home',component:HomeComponent},
